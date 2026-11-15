@@ -1,0 +1,1367 @@
+{
+  "id": "strong_org",
+  "name": "NitiQ Synthetic Strong Enterprise",
+  "description": "Synthetic enterprise organization modeling a strong defense profile.",
+  "industry": "Financial Services & FinTech",
+  "required_rto_hours": 12.0,
+  "required_rpo_hours": 4.0,
+  "incident_response_plan": true,
+  "runbook_available": true,
+  "security_controls": {
+    "centralized_logging": true,
+    "soc_monitoring_24_7": true,
+    "honeytokens_or_canary_files": true,
+    "automated_containment": true,
+    "privileged_access_management": true,
+    "network_microsegmentation": true,
+    "regular_restore_testing": true
+  },
+  "users": [
+    {
+      "id": "user-01",
+      "name": "SysAdmin (IT)",
+      "department": "IT",
+      "role": "SysAdmin",
+      "is_domain_admin": true,
+      "is_local_admin": true,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-02",
+      "name": "Network Engineer (IT)",
+      "department": "IT",
+      "role": "Network Engineer",
+      "is_domain_admin": true,
+      "is_local_admin": true,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-03",
+      "name": "Helpdesk Lead (IT)",
+      "department": "IT",
+      "role": "Helpdesk Lead",
+      "is_domain_admin": false,
+      "is_local_admin": true,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-04",
+      "name": "SecOps Analyst (IT)",
+      "department": "IT",
+      "role": "SecOps Analyst",
+      "is_domain_admin": false,
+      "is_local_admin": true,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-05",
+      "name": "DBA (IT)",
+      "department": "IT",
+      "role": "DBA",
+      "is_domain_admin": false,
+      "is_local_admin": true,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-06",
+      "name": "CFO (Finance)",
+      "department": "Finance",
+      "role": "CFO",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-07",
+      "name": "Finance Director (Finance)",
+      "department": "Finance",
+      "role": "Finance Director",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-08",
+      "name": "Payroll Lead (Finance)",
+      "department": "Finance",
+      "role": "Payroll Lead",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-09",
+      "name": "Billing Analyst (Finance)",
+      "department": "Finance",
+      "role": "Billing Analyst",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-10",
+      "name": "Accounts Payable (Finance)",
+      "department": "Finance",
+      "role": "Accounts Payable",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-11",
+      "name": "Auditor (Finance)",
+      "department": "Finance",
+      "role": "Auditor",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-12",
+      "name": "HR VP (HR)",
+      "department": "HR",
+      "role": "HR VP",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-13",
+      "name": "HR Generalist (HR)",
+      "department": "HR",
+      "role": "HR Generalist",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-14",
+      "name": "Recruiter (HR)",
+      "department": "HR",
+      "role": "Recruiter",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-15",
+      "name": "People Ops Specialist (HR)",
+      "department": "HR",
+      "role": "People Ops Specialist",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-16",
+      "name": "Benefits Coordinator (HR)",
+      "department": "HR",
+      "role": "Benefits Coordinator",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-17",
+      "name": "Principal Architect (Engineering)",
+      "department": "Engineering",
+      "role": "Principal Architect",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-18",
+      "name": "DevOps Engineer (Engineering)",
+      "department": "Engineering",
+      "role": "DevOps Engineer",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-19",
+      "name": "Frontend Dev (Engineering)",
+      "department": "Engineering",
+      "role": "Frontend Dev",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-20",
+      "name": "Backend Dev (Engineering)",
+      "department": "Engineering",
+      "role": "Backend Dev",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-21",
+      "name": "QA Lead (Engineering)",
+      "department": "Engineering",
+      "role": "QA Lead",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-22",
+      "name": "Site Reliability Engineer (Engineering)",
+      "department": "Engineering",
+      "role": "Site Reliability Engineer",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-23",
+      "name": "Platform Eng (Engineering)",
+      "department": "Engineering",
+      "role": "Platform Eng",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-24",
+      "name": "Data Scientist (Engineering)",
+      "department": "Engineering",
+      "role": "Data Scientist",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-25",
+      "name": "Sales VP (Sales)",
+      "department": "Sales",
+      "role": "Sales VP",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-26",
+      "name": "Account Exec 1 (Sales)",
+      "department": "Sales",
+      "role": "Account Exec 1",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-27",
+      "name": "Account Exec 2 (Sales)",
+      "department": "Sales",
+      "role": "Account Exec 2",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-28",
+      "name": "Sales Ops (Sales)",
+      "department": "Sales",
+      "role": "Sales Ops",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-29",
+      "name": "BDR 1 (Sales)",
+      "department": "Sales",
+      "role": "BDR 1",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-30",
+      "name": "BDR 2 (Sales)",
+      "department": "Sales",
+      "role": "BDR 2",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-31",
+      "name": "COO (Operations)",
+      "department": "Operations",
+      "role": "COO",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-32",
+      "name": "Ops Director (Operations)",
+      "department": "Operations",
+      "role": "Ops Director",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-33",
+      "name": "Supply Chain Lead (Operations)",
+      "department": "Operations",
+      "role": "Supply Chain Lead",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-34",
+      "name": "Logistics Mgr (Operations)",
+      "department": "Operations",
+      "role": "Logistics Mgr",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-35",
+      "name": "Procurement Specialist (Operations)",
+      "department": "Operations",
+      "role": "Procurement Specialist",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-36",
+      "name": "Facilities Mgr (Operations)",
+      "department": "Operations",
+      "role": "Facilities Mgr",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-37",
+      "name": "Warehouse Lead (Operations)",
+      "department": "Operations",
+      "role": "Warehouse Lead",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-38",
+      "name": "Compliance Officer (Operations)",
+      "department": "Operations",
+      "role": "Compliance Officer",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-39",
+      "name": "Vendor Mgr (Operations)",
+      "department": "Operations",
+      "role": "Vendor Mgr",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    },
+    {
+      "id": "user-40",
+      "name": "Admin Assistant (Operations)",
+      "department": "Operations",
+      "role": "Admin Assistant",
+      "is_domain_admin": false,
+      "is_local_admin": false,
+      "mfa_enabled": true,
+      "phishing_prone_percentage": 5.0,
+      "password_last_changed_days": 30
+    }
+  ],
+  "hosts": [
+    {
+      "id": "host-ws-01",
+      "hostname": "WS-CLIENT-01",
+      "ip_address": "10.0.10.21",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-02",
+      "hostname": "WS-CLIENT-02",
+      "ip_address": "10.0.10.22",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-03",
+      "hostname": "WS-CLIENT-03",
+      "ip_address": "10.0.10.23",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-04",
+      "hostname": "WS-CLIENT-04",
+      "ip_address": "10.0.10.24",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-05",
+      "hostname": "WS-CLIENT-05",
+      "ip_address": "10.0.10.25",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-06",
+      "hostname": "WS-CLIENT-06",
+      "ip_address": "10.0.10.26",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-07",
+      "hostname": "WS-CLIENT-07",
+      "ip_address": "10.0.10.27",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-08",
+      "hostname": "WS-CLIENT-08",
+      "ip_address": "10.0.10.28",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-09",
+      "hostname": "WS-CLIENT-09",
+      "ip_address": "10.0.10.29",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-10",
+      "hostname": "WS-CLIENT-10",
+      "ip_address": "10.0.10.30",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-11",
+      "hostname": "WS-CLIENT-11",
+      "ip_address": "10.0.10.31",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-12",
+      "hostname": "WS-CLIENT-12",
+      "ip_address": "10.0.10.32",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-13",
+      "hostname": "WS-CLIENT-13",
+      "ip_address": "10.0.10.33",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-14",
+      "hostname": "WS-CLIENT-14",
+      "ip_address": "10.0.10.34",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-ws-15",
+      "hostname": "WS-CLIENT-15",
+      "ip_address": "10.0.10.35",
+      "segment_id": "seg-workstations",
+      "os": "Windows 11 Enterprise",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-fin-01",
+      "hostname": "FIN-SRV-01",
+      "ip_address": "10.0.20.11",
+      "segment_id": "seg-finance",
+      "os": "Windows Server 2019",
+      "is_critical": true,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-fin-02",
+      "hostname": "FIN-SRV-02",
+      "ip_address": "10.0.20.12",
+      "segment_id": "seg-finance",
+      "os": "Windows Server 2019",
+      "is_critical": true,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-fin-03",
+      "hostname": "FIN-SRV-03",
+      "ip_address": "10.0.20.13",
+      "segment_id": "seg-finance",
+      "os": "Windows Server 2019",
+      "is_critical": true,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-srv-01",
+      "hostname": "FILE-SRV-01",
+      "ip_address": "10.0.40.11",
+      "segment_id": "seg-servers",
+      "os": "Windows Server 2022",
+      "is_critical": true,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-srv-02",
+      "hostname": "ERP-SRV-01",
+      "ip_address": "10.0.40.12",
+      "segment_id": "seg-servers",
+      "os": "Windows Server 2022",
+      "is_critical": true,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-srv-03",
+      "hostname": "HR-SRV-01",
+      "ip_address": "10.0.40.13",
+      "segment_id": "seg-servers",
+      "os": "Windows Server 2022",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-srv-04",
+      "hostname": "DEV-SRV-01",
+      "ip_address": "10.0.40.14",
+      "segment_id": "seg-servers",
+      "os": "Windows Server 2022",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    },
+    {
+      "id": "host-srv-05",
+      "hostname": "OPS-SRV-01",
+      "ip_address": "10.0.40.15",
+      "segment_id": "seg-servers",
+      "os": "Windows Server 2022",
+      "is_critical": false,
+      "is_domain_controller": false,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false
+    }
+  ],
+  "domain_controllers": [
+    {
+      "id": "dc-01",
+      "hostname": "CORP-DC-01",
+      "ip_address": "10.0.30.10",
+      "segment_id": "seg-it-admin",
+      "os": "Windows Server 2022",
+      "is_critical": true,
+      "is_domain_controller": true,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false,
+      "ad_forest": "corp.nitiq.internal",
+      "ldap_signing_enforced": true
+    },
+    {
+      "id": "dc-02",
+      "hostname": "CORP-DC-02",
+      "ip_address": "10.0.30.11",
+      "segment_id": "seg-it-admin",
+      "os": "Windows Server 2022",
+      "is_critical": true,
+      "is_domain_controller": true,
+      "edr_installed": true,
+      "edr_active": true,
+      "patch_level": "updated",
+      "local_admin_restricted": true,
+      "has_unquoted_service_path": false,
+      "ad_forest": "corp.nitiq.internal",
+      "ldap_signing_enforced": true
+    }
+  ],
+  "file_shares": [
+    {
+      "id": "share-corp-docs",
+      "name": "Corporate Documents",
+      "host_id": "host-srv-01",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 2500.0,
+      "critical_data": false,
+      "department": "General",
+      "sensitive_data_type": "Internal",
+      "unencrypted": false
+    },
+    {
+      "id": "share-fin-payroll",
+      "name": "Payroll & Compensation Records",
+      "host_id": "host-fin-01",
+      "segment_id": "seg-finance",
+      "data_volume_gb": 1200.0,
+      "critical_data": true,
+      "department": "Finance",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    },
+    {
+      "id": "share-fin-erp",
+      "name": "ERP Financial Ledger",
+      "host_id": "host-fin-02",
+      "segment_id": "seg-finance",
+      "data_volume_gb": 4500.0,
+      "critical_data": true,
+      "department": "Finance",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    },
+    {
+      "id": "share-fin-tax",
+      "name": "Quarterly Tax Filings",
+      "host_id": "host-fin-03",
+      "segment_id": "seg-finance",
+      "data_volume_gb": 800.0,
+      "critical_data": true,
+      "department": "Finance",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    },
+    {
+      "id": "share-hr-confidential",
+      "name": "HR Personnel Files",
+      "host_id": "host-srv-03",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 1500.0,
+      "critical_data": true,
+      "department": "HR",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    },
+    {
+      "id": "share-dev-repo",
+      "name": "Source Code & Build Artifacts",
+      "host_id": "host-srv-04",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 6000.0,
+      "critical_data": true,
+      "department": "Engineering",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    },
+    {
+      "id": "share-ops-sc",
+      "name": "Supply Chain Contracts",
+      "host_id": "host-srv-05",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 1800.0,
+      "critical_data": false,
+      "department": "Operations",
+      "sensitive_data_type": "Internal",
+      "unencrypted": false
+    },
+    {
+      "id": "share-it-tools",
+      "name": "IT Deployment & Admin Tools",
+      "host_id": "host-srv-01",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 1100.0,
+      "critical_data": false,
+      "department": "IT",
+      "sensitive_data_type": "Internal",
+      "unencrypted": false
+    },
+    {
+      "id": "share-sales-crm",
+      "name": "Sales CRM Export Archives",
+      "host_id": "host-srv-01",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 2200.0,
+      "critical_data": false,
+      "department": "Sales",
+      "sensitive_data_type": "Internal",
+      "unencrypted": false
+    },
+    {
+      "id": "share-legal-ip",
+      "name": "Executive & Legal Patents",
+      "host_id": "host-srv-01",
+      "segment_id": "seg-servers",
+      "data_volume_gb": 900.0,
+      "critical_data": true,
+      "department": "Legal",
+      "sensitive_data_type": "Confidential",
+      "unencrypted": false
+    }
+  ],
+  "backup_repositories": [
+    {
+      "id": "backup-immutable-vault",
+      "name": "Zero-Trust Immutable S3 Object Vault",
+      "segment_id": "seg-backup",
+      "host_id": null,
+      "backup_type": "immutable_cloud",
+      "is_immutable": true,
+      "is_offline": false,
+      "domain_joined": false,
+      "credential_isolated": true,
+      "storage_capacity_tb": 100.0,
+      "restore_throughput_mb_s": 120.0,
+      "last_restore_test_days": 14,
+      "snapshot_frequency_hours": 4
+    },
+    {
+      "id": "backup-offline-airgap",
+      "name": "Cold Air-Gapped LTO Tape Vault",
+      "segment_id": "seg-backup",
+      "host_id": null,
+      "backup_type": "offline_airgap",
+      "is_immutable": true,
+      "is_offline": true,
+      "domain_joined": false,
+      "credential_isolated": true,
+      "storage_capacity_tb": 80.0,
+      "restore_throughput_mb_s": 85.0,
+      "last_restore_test_days": 21,
+      "snapshot_frequency_hours": 24
+    }
+  ],
+  "network_segments": [
+    {
+      "id": "seg-workstations",
+      "name": "Workstation User Subnet",
+      "cidr": "10.0.10.0/24",
+      "zone_type": "workstations",
+      "is_isolated": false,
+      "firewall_rules_strict": false
+    },
+    {
+      "id": "seg-finance",
+      "name": "Finance & Payroll Isolated Zone",
+      "cidr": "10.0.20.0/24",
+      "zone_type": "finance",
+      "is_isolated": true,
+      "firewall_rules_strict": true
+    },
+    {
+      "id": "seg-it-admin",
+      "name": "IT Management & Core Services",
+      "cidr": "10.0.30.0/24",
+      "zone_type": "it_admin",
+      "is_isolated": true,
+      "firewall_rules_strict": true
+    },
+    {
+      "id": "seg-servers",
+      "name": "Corporate Application & File Servers",
+      "cidr": "10.0.40.0/24",
+      "zone_type": "datacenter",
+      "is_isolated": true,
+      "firewall_rules_strict": true
+    },
+    {
+      "id": "seg-backup",
+      "name": "Backup Infrastructure Storage Zone",
+      "cidr": "10.0.50.0/24",
+      "zone_type": "backup",
+      "is_isolated": true,
+      "firewall_rules_strict": true
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "user-01",
+      "target_id": "host-ws-01",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-02",
+      "target_id": "host-ws-02",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-03",
+      "target_id": "host-ws-03",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-04",
+      "target_id": "host-ws-04",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-05",
+      "target_id": "host-ws-05",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-06",
+      "target_id": "host-ws-06",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-07",
+      "target_id": "host-ws-07",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-08",
+      "target_id": "host-ws-08",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-09",
+      "target_id": "host-ws-09",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-10",
+      "target_id": "host-ws-10",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-11",
+      "target_id": "host-ws-11",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-12",
+      "target_id": "host-ws-12",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-13",
+      "target_id": "host-ws-13",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-14",
+      "target_id": "host-ws-14",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-15",
+      "target_id": "host-ws-15",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-16",
+      "target_id": "host-ws-01",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-17",
+      "target_id": "host-ws-02",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-18",
+      "target_id": "host-ws-03",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-19",
+      "target_id": "host-ws-04",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-20",
+      "target_id": "host-ws-05",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-21",
+      "target_id": "host-ws-06",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-22",
+      "target_id": "host-ws-07",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-23",
+      "target_id": "host-ws-08",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-24",
+      "target_id": "host-ws-09",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-25",
+      "target_id": "host-ws-10",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-26",
+      "target_id": "host-ws-11",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-27",
+      "target_id": "host-ws-12",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-28",
+      "target_id": "host-ws-13",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-29",
+      "target_id": "host-ws-14",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-30",
+      "target_id": "host-ws-15",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-31",
+      "target_id": "host-ws-01",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-32",
+      "target_id": "host-ws-02",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-33",
+      "target_id": "host-ws-03",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-34",
+      "target_id": "host-ws-04",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-35",
+      "target_id": "host-ws-05",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-36",
+      "target_id": "host-ws-06",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-37",
+      "target_id": "host-ws-07",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-38",
+      "target_id": "host-ws-08",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-39",
+      "target_id": "host-ws-09",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-40",
+      "target_id": "host-ws-10",
+      "relationship_type": "logged_in_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "dc-01",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "dc-02",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-fin-01",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-fin-02",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-fin-03",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-srv-01",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-srv-02",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-srv-03",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-srv-04",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "user-01",
+      "target_id": "host-srv-05",
+      "relationship_type": "admin_on",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-01",
+      "target_id": "share-corp-docs",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-fin-01",
+      "target_id": "share-fin-payroll",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-fin-02",
+      "target_id": "share-fin-erp",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-fin-03",
+      "target_id": "share-fin-tax",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-03",
+      "target_id": "share-hr-confidential",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-04",
+      "target_id": "share-dev-repo",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-05",
+      "target_id": "share-ops-sc",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-01",
+      "target_id": "share-it-tools",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-01",
+      "target_id": "share-sales-crm",
+      "relationship_type": "can_write",
+      "metadata": {}
+    },
+    {
+      "source_id": "host-srv-01",
+      "target_id": "share-legal-ip",
+      "relationship_type": "can_write",
+      "metadata": {}
+    }
+  ]
+}
